@@ -17,6 +17,7 @@ function Home() {
     <>
       <div className="main">
         <div className="first">
+          {/* <marquee height="100%" direction="up" className="marquee-1"> */}
           <img src={One} className="img" alt="mleo-img" />
           <br />
           <img src={Two} className="img" alt="mleo-img" />
@@ -56,6 +57,7 @@ function Home() {
           <br />
 
           <img src={Four} className="img" alt="mleo-img" />
+          {/* </marquee> */}
         </div>
         <div className="second">
           <h5 className="animate__animated animate__pulse animate__infinite infinite name">
@@ -77,7 +79,6 @@ function Home() {
             src={first}
             className="img-1 animate__animated animate__zoomIn animate__infinite infinite animate__slow 5s"
             alt="mleo-img"
-            height="200px"
           />
           <img
             src={second}
@@ -88,8 +89,8 @@ function Home() {
             style={{ display: "flex" }}
             className="animate__animated animate__flash animate__infinite infinite animate__slow 5s"
           >
-            <img src={third} alt="mleo-img" height="150px" />
-            <img src={four} alt="mleo-img" height="150px" />
+            <img src={third} alt="mleo-img" />
+            <img src={four} alt="mleo-img" />
           </div>
           <h5
             style={{
@@ -125,6 +126,20 @@ function Home() {
             with love and happiness.!!
           </h5>
 
+          {/* <p
+            width="100%"
+            style={{
+              fontSize: "30px",
+              fontStyle: "italic",
+              fontWeight: "600",
+              lineHeight: "45px",
+              color: "#efbf09",
+              marginTop: "20px",
+            }}
+            className="marq"
+          >
+            {name} Wishing You Happy Ganesh Chaturthi!!
+          </p> */}
           <div className="marq">
             <p>{name} Wishing You Happy Ganesh Chaturthi!!</p>
           </div>
@@ -139,7 +154,8 @@ function Home() {
             </span>
           </h5>
         </div>
-        <div className="first">
+        <div className="third marquee-1">
+          {/* <marquee height="100%" direction="down" className="marquee-1"> */}
           <img src={One} className="img" alt="mleo-img" />
           <br />
           <img src={Two} className="img" alt="mleo-img" />
@@ -179,6 +195,7 @@ function Home() {
           <br />
 
           <img src={Four} className="img" alt="mleo-img" />
+          {/* </marquee> */}
         </div>
       </div>
       <div className="last-main">

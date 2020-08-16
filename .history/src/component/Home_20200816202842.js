@@ -77,7 +77,6 @@ function Home() {
             src={first}
             className="img-1 animate__animated animate__zoomIn animate__infinite infinite animate__slow 5s"
             alt="mleo-img"
-            height="200px"
           />
           <img
             src={second}
@@ -89,7 +88,7 @@ function Home() {
             className="animate__animated animate__flash animate__infinite infinite animate__slow 5s"
           >
             <img src={third} alt="mleo-img" height="150px" />
-            <img src={four} alt="mleo-img" height="150px" />
+            <img src={four} alt="mleo-img" />
           </div>
           <h5
             style={{

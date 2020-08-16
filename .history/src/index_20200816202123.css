@@ -9,7 +9,6 @@ body {
 .main {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-bottom: 120px;
 }
 .first {
@@ -20,7 +19,6 @@ body {
 .marquee-1 {
   display: flex;
   justify-content: center;
-  animation: marquee 20s linear infinite;
 }
 .img {
   margin-bottom: 40px;
@@ -85,6 +83,7 @@ body {
 }
 .third {
   width: 15%;
+  animation: marquee 20s linear infinite;
 }
 .last-main {
   display: flex;

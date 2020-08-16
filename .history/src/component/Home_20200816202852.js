@@ -77,7 +77,6 @@ function Home() {
             src={first}
             className="img-1 animate__animated animate__zoomIn animate__infinite infinite animate__slow 5s"
             alt="mleo-img"
-            height="200px"
           />
           <img
             src={second}
