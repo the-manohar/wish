@@ -10,10 +10,9 @@ import four from "../images/2 (1).png";
 import whatsapp_icon from "../images/whatsapp_icon.svg";
 import { useParams } from "react-router-dom";
 // import One from "./images/1.png";
-function Home() {
+function Main() {
   const { id } = useParams();
-  let [name, setName] = useState(id || "");
-  name = name.replace(" ", "_");
+  const [name, setName] = useState(id);
   return (
     <>
       <div className="main">
@@ -182,11 +181,6 @@ function Home() {
           <img src={Four} className="img" alt="mleo-img" />
         </div>
       </div>
-      <img
-        src="https://hitwebcounter.com/counter/counter.php?page=7651066&style=0007&nbdigits=5&type=ip&initCount=150"
-        alt="hitwebcounter"
-        border="0"
-      />
       <div className="last-main">
         <div className="last-f">
           <input
@@ -209,4 +203,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Main;
