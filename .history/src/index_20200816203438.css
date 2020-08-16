@@ -8,10 +8,9 @@ body {
 }
 .main {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center;
+  align-items: center; */
   margin-bottom: 120px;
-  width: 100%;
 }
 .first {
   width: 15%;
