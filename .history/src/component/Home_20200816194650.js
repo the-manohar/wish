@@ -17,47 +17,47 @@ function Home() {
     <>
       <div className="main">
         <div className="first">
-          {/* <marquee height="100%" direction="up" className="marquee-1"> */}
-          <img src={One} className="img" alt="mleo-img" />
-          <br />
-          <img src={Two} className="img" alt="mleo-img" />
-          <br />
+          <marquee height="100%" direction="up" className="marquee-1">
+            <img src={One} className="img" alt="mleo-img" />
+            <br />
+            <img src={Two} className="img" alt="mleo-img" />
+            <br />
 
-          <img src={Three} className="img" alt="mleo-img" />
-          <br />
+            <img src={Three} className="img" alt="mleo-img" />
+            <br />
 
-          <img src={Four} className="img" alt="mleo-img" />
-          <br />
-          <img src={One} className="img" alt="mleo-img" />
-          <br />
-          <img src={Two} className="img" alt="mleo-img" />
-          <br />
+            <img src={Four} className="img" alt="mleo-img" />
+            <br />
+            <img src={One} className="img" alt="mleo-img" />
+            <br />
+            <img src={Two} className="img" alt="mleo-img" />
+            <br />
 
-          <img src={Three} className="img" alt="mleo-img" />
-          <br />
+            <img src={Three} className="img" alt="mleo-img" />
+            <br />
 
-          <img src={Four} className="img" alt="mleo-img" />
-          <br />
-          <img src={One} className="img" alt="mleo-img" />
-          <br />
-          <img src={Two} className="img" alt="mleo-img" />
-          <br />
+            <img src={Four} className="img" alt="mleo-img" />
+            <br />
+            <img src={One} className="img" alt="mleo-img" />
+            <br />
+            <img src={Two} className="img" alt="mleo-img" />
+            <br />
 
-          <img src={Three} className="img" alt="mleo-img" />
-          <br />
+            <img src={Three} className="img" alt="mleo-img" />
+            <br />
 
-          <img src={Four} className="img" alt="mleo-img" />
-          <br />
-          <img src={One} className="img" alt="mleo-img" />
-          <br />
-          <img src={Two} className="img" alt="mleo-img" />
-          <br />
+            <img src={Four} className="img" alt="mleo-img" />
+            <br />
+            <img src={One} className="img" alt="mleo-img" />
+            <br />
+            <img src={Two} className="img" alt="mleo-img" />
+            <br />
 
-          <img src={Three} className="img" alt="mleo-img" />
-          <br />
+            <img src={Three} className="img" alt="mleo-img" />
+            <br />
 
-          <img src={Four} className="img" alt="mleo-img" />
-          {/* </marquee> */}
+            <img src={Four} className="img" alt="mleo-img" />
+          </marquee>
         </div>
         <div className="second">
           <h5 className="animate__animated animate__pulse animate__infinite infinite name">

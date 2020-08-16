@@ -14,7 +14,7 @@ body {
 .first {
   width: 15%;
   /* position: fixed; */
-  animation: marquee 20s linear infinite;
+  animation: marquee 1s linear infinite;
 }
 .marquee-1 {
   display: flex;

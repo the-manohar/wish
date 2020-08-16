@@ -17,47 +17,47 @@ function Home() {
     <>
       <div className="main">
         <div className="first">
-          {/* <marquee height="100%" direction="up" className="marquee-1"> */}
-          <img src={One} className="img" alt="mleo-img" />
-          <br />
-          <img src={Two} className="img" alt="mleo-img" />
-          <br />
+          <marquee height="100%" direction="up" className="marquee-1">
+            <img src={One} className="img" alt="Image" />
+            <br />
+            <img src={Two} className="img" alt="Image" />
+            <br />
 
-          <img src={Three} className="img" alt="mleo-img" />
-          <br />
+            <img src={Three} className="img" alt="Image" />
+            <br />
 
-          <img src={Four} className="img" alt="mleo-img" />
-          <br />
-          <img src={One} className="img" alt="mleo-img" />
-          <br />
-          <img src={Two} className="img" alt="mleo-img" />
-          <br />
+            <img src={Four} className="img" alt="Image" />
+            <br />
+            <img src={One} className="img" alt="Image" />
+            <br />
+            <img src={Two} className="img" alt="Image" />
+            <br />
 
-          <img src={Three} className="img" alt="mleo-img" />
-          <br />
+            <img src={Three} className="img" alt="Image" />
+            <br />
 
-          <img src={Four} className="img" alt="mleo-img" />
-          <br />
-          <img src={One} className="img" alt="mleo-img" />
-          <br />
-          <img src={Two} className="img" alt="mleo-img" />
-          <br />
+            <img src={Four} className="img" alt="Image" />
+            <br />
+            <img src={One} className="img" alt="Image" />
+            <br />
+            <img src={Two} className="img" alt="Image" />
+            <br />
 
-          <img src={Three} className="img" alt="mleo-img" />
-          <br />
+            <img src={Three} className="img" alt="Image" />
+            <br />
 
-          <img src={Four} className="img" alt="mleo-img" />
-          <br />
-          <img src={One} className="img" alt="mleo-img" />
-          <br />
-          <img src={Two} className="img" alt="mleo-img" />
-          <br />
+            <img src={Four} className="img" alt="Image" />
+            <br />
+            <img src={One} className="img" alt="Image" />
+            <br />
+            <img src={Two} className="img" alt="Image" />
+            <br />
 
-          <img src={Three} className="img" alt="mleo-img" />
-          <br />
+            <img src={Three} className="img" alt="Image" />
+            <br />
 
-          <img src={Four} className="img" alt="mleo-img" />
-          {/* </marquee> */}
+            <img src={Four} className="img" alt="Image" />
+          </marquee>
         </div>
         <div className="second">
           <h5 className="animate__animated animate__pulse animate__infinite infinite name">
@@ -78,19 +78,19 @@ function Home() {
           <img
             src={first}
             className="img-1 animate__animated animate__zoomIn animate__infinite infinite animate__slow 5s"
-            alt="mleo-img"
+            alt="Image"
           />
           <img
             src={second}
             className="img-2 animate__animated animate__shakeX animate__infinite infinite animate__slow 5s"
-            alt="mleo-img"
+            alt="Image"
           />
           <div
             style={{ display: "flex" }}
             className="animate__animated animate__flash animate__infinite infinite animate__slow 5s"
           >
-            <img src={third} alt="mleo-img" />
-            <img src={four} alt="mleo-img" />
+            <img src={third} alt="Image" />
+            <img src={four} alt="Image" />
           </div>
           <h5
             style={{
@@ -141,56 +141,50 @@ function Home() {
           </marquee>
 
           <h5 className="btn animate__animated animate__bounce animate__infinite infinite animate__slow 5s">
-            <span aria-label="sheep" role="img">
-              😇
-            </span>
-            From {name}
-            <span role="img" aria-label="sheep">
-              😇
-            </span>
+            😇From {name}😇
           </h5>
         </div>
         <div className="third">
           <marquee height="100%" direction="down" className="marquee-1">
-            <img src={One} className="img" alt="mleo-img" />
+            <img src={One} className="img" alt="Image" />
             <br />
-            <img src={Two} className="img" alt="mleo-img" />
-            <br />
-
-            <img src={Three} className="img" alt="mleo-img" />
+            <img src={Two} className="img" alt="Image" />
             <br />
 
-            <img src={Four} className="img" alt="mleo-img" />
-            <br />
-            <img src={One} className="img" alt="mleo-img" />
-            <br />
-            <img src={Two} className="img" alt="mleo-img" />
+            <img src={Three} className="img" alt="Image" />
             <br />
 
-            <img src={Three} className="img" alt="mleo-img" />
+            <img src={Four} className="img" alt="Image" />
+            <br />
+            <img src={One} className="img" alt="Image" />
+            <br />
+            <img src={Two} className="img" alt="Image" />
             <br />
 
-            <img src={Four} className="img" alt="mleo-img" />
-            <br />
-            <img src={One} className="img" alt="mleo-img" />
-            <br />
-            <img src={Two} className="img" alt="mleo-img" />
+            <img src={Three} className="img" alt="Image" />
             <br />
 
-            <img src={Three} className="img" alt="mleo-img" />
+            <img src={Four} className="img" alt="Image" />
+            <br />
+            <img src={One} className="img" alt="Image" />
+            <br />
+            <img src={Two} className="img" alt="Image" />
             <br />
 
-            <img src={Four} className="img" alt="mleo-img" />
-            <br />
-            <img src={One} className="img" alt="mleo-img" />
-            <br />
-            <img src={Two} className="img" alt="mleo-img" />
+            <img src={Three} className="img" alt="Image" />
             <br />
 
-            <img src={Three} className="img" alt="mleo-img" />
+            <img src={Four} className="img" alt="Image" />
+            <br />
+            <img src={One} className="img" alt="Image" />
+            <br />
+            <img src={Two} className="img" alt="Image" />
             <br />
 
-            <img src={Four} className="img" alt="mleo-img" />
+            <img src={Three} className="img" alt="Image" />
+            <br />
+
+            <img src={Four} className="img" alt="Image" />
           </marquee>
         </div>
       </div>
@@ -208,7 +202,7 @@ function Home() {
           >
             Share
             <span>
-              <img src={whatsapp_icon} height="25px" alt="mleo-img" />
+              <img src={whatsapp_icon} height="25px" />
             </span>
           </a>
         </div>

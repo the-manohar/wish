@@ -14,7 +14,6 @@ body {
 .first {
   width: 15%;
   /* position: fixed; */
-  animation: marquee 20s linear infinite;
 }
 .marquee-1 {
   display: flex;
@@ -22,10 +21,8 @@ body {
 }
 .img {
   margin-bottom: 40px;
+  animation: marquee 5s linear infinite;
 }
-/* .first img {
-  animation: marquee 1s linear infinite;
-} */
 @keyframes marquee {
   0% {
     transform: translate(0, 0);
