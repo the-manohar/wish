@@ -12,7 +12,7 @@ import { useParams } from "react-router-dom";
 // import One from "./images/1.png";
 function Home() {
   const { id } = useParams();
-  const [name, setName] = useState(id);
+  const [name, setName] = useState(newName);
   return (
     <>
       <div className="main">

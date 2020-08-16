@@ -6,9 +6,9 @@ function App() {
     <>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Home} />
+          {/* <Route exact path="/" component={Home} /> */}
           <Route path="/:id" component={Home} />
-          <Redirect to="/:id" />
+          <Redirect to="/:newName" />
         </Switch>
       </BrowserRouter>
     </>
