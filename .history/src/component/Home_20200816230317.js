@@ -13,7 +13,7 @@ import { useParams } from "react-router-dom";
 function Home() {
   const { id } = useParams();
   let [name, setName] = useState(id || "");
-  name = name.replace(" ", "_");
+  let name = name.replace(" ", "_");
   return (
     <>
       <div className="main">
