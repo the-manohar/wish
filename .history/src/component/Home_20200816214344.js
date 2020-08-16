@@ -185,7 +185,7 @@ function Home() {
         <div className="last-f">
           <input
             type="text"
-            placeholder="Name"
+            placeholder="Enter your Name"
             onChange={(e) => setName(e.target.value)}
           />
         </div>

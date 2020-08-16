@@ -10,7 +10,7 @@ import four from "../images/2 (1).png";
 import whatsapp_icon from "../images/whatsapp_icon.svg";
 import { useParams } from "react-router-dom";
 // import One from "./images/1.png";
-function Home() {
+function Main() {
   const { id } = useParams();
   const [name, setName] = useState(id);
   return (
@@ -203,4 +203,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Main;

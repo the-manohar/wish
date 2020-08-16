@@ -185,7 +185,7 @@ function Home() {
         <div className="last-f">
           <input
             type="text"
-            placeholder="Name"
+            placeholder="Enter your Name"
             onChange={(e) => setName(e.target.value)}
           />
         </div>
@@ -193,6 +193,7 @@ function Home() {
           <a
             href={`whatsapp://send?text=😮 *Surprise* 😮%0A😮 *Surprise* 😮%0A😮 *Surprise* 😮%0A*See This* 🤫🤭%0A‼️👇👇👇👇‼️%0A http://localhost:3000/${name}`}
           >
+            S
             <span>
               <img src={whatsapp_icon} height="25px" alt="mleo-img" />
             </span>
