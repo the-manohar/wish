@@ -6,7 +6,7 @@ function App() {
     <>
       <BrowserRouter>
         <Route path="/:newName" component={Home} />
-        <Route exact path="/" component={Home} />
+        <Route path="/" component={Home} />
       </BrowserRouter>
     </>
   );

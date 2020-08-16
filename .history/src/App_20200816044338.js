@@ -5,8 +5,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Route path="/:newName" component={Home} />
-        <Route exact path="/" component={Home} />
+        <Route path="/:name" component={Home} />
       </BrowserRouter>
     </>
   );

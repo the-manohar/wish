@@ -74,7 +74,6 @@ body {
 }
 .last-main {
   display: flex;
-
   justify-content: space-around;
   align-items: center;
   margin: 15px 0;
@@ -108,7 +107,7 @@ input:focus {
 .last-l {
   width: 30%;
 }
-a {
+button {
   padding: 15px;
   /* width: 30%; */
   background-color: #c71515;
@@ -119,6 +118,6 @@ a {
   font-size: 20px;
   cursor: pointer;
 }
-a:focus {
+button:focus {
   outline: none;
 }

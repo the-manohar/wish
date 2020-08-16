@@ -74,7 +74,6 @@ body {
 }
 .last-main {
   display: flex;
-
   justify-content: space-around;
   align-items: center;
   margin: 15px 0;
