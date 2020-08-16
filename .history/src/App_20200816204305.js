@@ -6,8 +6,8 @@ function App() {
     <>
       <BrowserRouter>
         <Switch>
-          <Route exact path="/" component={Home} />
           <Route path="/:newName" component={Home} />
+          <Route path="/" component={Home} />
           <Redirect to="/:newName" />
         </Switch>
       </BrowserRouter>
